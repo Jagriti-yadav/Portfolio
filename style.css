@@ -1,0 +1,108 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+.navbar{
+  font-family: "Momo Trust Display", sans-serif; 
+  
+}
+.navbar-brand{
+  color:#3d1d06;
+  font-size:20px;
+  margin-left:70px;
+}
+.nav-link{
+  color:#3d1d06;
+  border-radius:50px;
+}
+.nav-link:hover{
+  background-color:#3d1d06;
+  color:white;
+  border-radius:50px;
+  cursor:pointer;
+  box-shadow:0 0 20px #3d1d06;
+}
+.contactBtn{
+  background-color:#3d1d06;
+  color:white;
+  
+}
+.main{
+  background-image:linear-gradient(
+    rgba(80, 50, 20, 0.6),  /* top brownish shadow */
+    rgba(80, 50, 20, 0.6)   /* bottom brownish shadow */
+  ),url('images/premium_photo-1663956108845-ad0432896f06.jpg'); 
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  min-height:100vh;
+  display:flex;
+  color:white;
+}
+.name{
+  font-size:60px;
+}
+.main-icons a{
+  display:inline-flex;
+  height:43px;
+  width:43px;
+  border:2px solid white;
+  border-radius:50%;
+  justify-content:center;
+  align-items:center;
+  background:transparent;
+  font-size:30px; 
+  margin-right:5px;  
+  background:white;
+  box-shadow:0 0 20px white;
+}
+.main-icons a i{
+  color:rgb(56, 36, 36);
+}
+.main-icons a:hover{
+  background:#3d1d06;
+  box-shadow:0 0 20px rgb(31, 30, 30);
+  border-color: #3d1d06;
+}
+.main-icons a i:hover{
+  color:white;
+}
+.btn1{
+  display:inline-block;
+  background:#3d1d06;
+  color:white;
+  font-weight:700;
+  border:none;
+  box-shadow:0 0 20px #3d1d06;
+}
+.btn1:hover{
+  box-shadow:none;
+  background:white;
+  color:#3d1d06;
+  box-shadow:0 0 20px white;
+}
+.aboutMe{
+  min-height:100vh;
+  background-color:white;
+  display:flex;
+  text-align :center;
+  align-items:center;
+  justify-content:center;
+}
+.pic{
+  width:50%;
+}
+.pic img{
+  border-radius:15px;
+}
+.me{
+  width:50%;
+  text-align:left;
+}
+.myPic{
+  height:400px;
+}
+.aboutMe p{
+  font-weight:500;
+}
