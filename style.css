@@ -102,7 +102,16 @@
 }
 .myPic{
   height:400px;
+  box-shadow:0 10px 20px rgba(0, 0, 0, 0.5);
+  transition:0.3s ease;
+}
+.myPic:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.4);
 }
 .aboutMe p{
   font-weight:500;
+}
+.projects{
+  min-height:100vh;  
 }
